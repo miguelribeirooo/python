@@ -18,9 +18,9 @@ n = n-n5*5
 n2 = n // 2
 n = n-n2*2
 
-n1 = n // 1
-n = n-n1*1
-n1=float('%.2f'% n1)
+m1 = n // 1
+n = n-m1*1
+m1=float('%.2f'% m1)
 n=float('%.2f'% n)
 
 m50 = n // 0.50
@@ -55,7 +55,7 @@ print('{} nota(s) de R$ 10.00'.format(int(n10)))
 print('{} nota(s) de R$ 5.00'.format(int(n5)))
 print('{} nota(s) de R$ 2.00'.format(int(n2)))
 print('MOEDAS:')
-print('{} moeda(s) de R$ 1.00'.format(int(n1)))
+print('{} moeda(s) de R$ 1.00'.format(int(m1)))
 print('{} moeda(s) de R$ 0.50'.format(int(m50)))
 print('{} moeda(s) de R$ 0.25'.format(int(m25)))
 print('{} moeda(s) de R$ 0.10'.format(int(m10)))
