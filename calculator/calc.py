@@ -1,4 +1,5 @@
 import tkinter as tk
+import time
 
 LARGE_FONT_STYLE = ("Arial", 40, "bold")
 SMALL_FONT_STYLE = ("Arial", 16)
@@ -138,6 +139,7 @@ class Calculator:
             self.current_expression = "Error"
         finally:
             self.update_label()
+
 
     def create_equals_button(self):
         button = tk.Button(self.buttons_frame, text="=", bg=LIGHT_BLUE, fg=LABEL_COLOR, font=DEFAULT_FONT_STYLE,
